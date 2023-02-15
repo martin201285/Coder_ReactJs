@@ -1,0 +1,30 @@
+.searchBar {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    flex-grow: 1;
+    position: relative;
+}
+
+.searchBar__input {
+    transition: border ease 1s;
+    border: rgb(235, 230, 230);
+    border-radius: .5rem;
+    padding: 0 35px 0 10px;
+    background-color: rgb(235, 230, 230);
+    height: 3.2rem;
+    max-width: 23rem;
+    z-index: 1;
+    flex: 1;
+}
+
+.searchBar__icon {
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
