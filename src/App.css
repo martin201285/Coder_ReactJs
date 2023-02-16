@@ -33,6 +33,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -40,7 +45,7 @@ header {
   padding: 0 var(--spacing-lg) 0 var(--spacing-lg);
   background-color: var(--background-header-footer);
   box-shadow: 0 0 12px 0 #00000070;
-  position: fixed;
+  /* position: fixed; */
   width: 100vw;
   z-index: 2;
 }

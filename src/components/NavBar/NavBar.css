@@ -20,6 +20,6 @@ a {
     transition: all .4s;
 }
 
-a:hover {
+.pages__items a:hover {
     border-bottom: 1.5px solid black;
 }
