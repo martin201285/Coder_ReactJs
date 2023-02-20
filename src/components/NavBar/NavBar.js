@@ -6,7 +6,7 @@ const NavBar = ({links}) => {
             {
                 links && links.map((link) => {
                     return (
-                        <li className="pages__items"><a href="#">{link}</a></li>
+                        <li className="pages__items"><a href="@">{link}</a></li>
                     )
                 })
             }
