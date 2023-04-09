@@ -1,0 +1,25 @@
+.menu__pages {
+    display:flex;
+    flex-direction: row;
+    gap: var(--spacing-md);
+}
+
+.pages__items {
+    font-size: var(--font-md);
+    color: black;
+}
+
+li {
+    list-style-type: none;
+  }
+  
+a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.pages__items a:hover {
+    border-bottom: 1.5px solid black;
+}
